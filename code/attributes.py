@@ -1,3 +1,8 @@
+MAP_EXIST = {
+    1: "있다",
+    2: "없다"
+}
+
 MAP_IMPORTANCE = {
     1: "매우 중요하지 않다",
     2: "중요하지 않다",
@@ -15,10 +20,14 @@ MAP_GOOD = {
 }
 
 MAP_PERSON = {
-    "sex": "Q42",
-    "age": "Q43",
-    "role": "Q44",
-    "degree": "Q45",
-    "experience": "Q46",
-    "field" : "Q47",
+    "성별": "Q42",
+    "연령대": "Q43",
+    "직위": "Q44",
+    "최종학위": "Q45",
+    "연구경력": "Q46",
+    "연구분야" : "Q47",
 }
+
+def compute_height(width):
+    return width * 1.618
+
